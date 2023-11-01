@@ -1,0 +1,33 @@
+   algorithme tableau
+fonction soustab(tab:tableau entier ,x:entier,y:entier):tableau réel
+variable 
+tableau T() : reel
+i,j         :entier
+debut
+j=0
+pour i ---> X à Y-1 pas 1 faire 
+    T(j)<--tab(i)
+    j=j+1
+finpour
+retourn T
+fin 
+variable
+tableau tab() :reel
+m,i,a,b           :entier
+debut
+ecrire("entrer le nombre de case : ")
+lire(m)
+redimtab(m)
+pour i <--0 à m-1 pas 1 faire 
+      ecrire("entrer un entier  : ")
+       lire(tab(i))
+finpour
+ecrire("entrer 2 case de tableau :)
+lire(a,b)
+ecrire("les cases entre",a,"et",b,"sont")
+soustab(tab,a,b)
+fin
+
+
+
+   
